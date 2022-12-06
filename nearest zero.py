@@ -28,7 +28,7 @@ def search_null(s):
             else:
                 strsp[i] = a
                 a += 1
-    print(" ".join(map(str, strsp)))
+    return(" ".join(map(str, strsp)))
 
     
-search_null(input())
+print(search_null(input()))
